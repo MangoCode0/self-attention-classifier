@@ -1,0 +1,86 @@
+{
+    "Custom Self-Attention": {
+        "accuracy": 0.6774193548387096,
+        "balanced_accuracy": 0.6603260869565217,
+        "macro_f1": 0.6309523809523809,
+        "confusion_matrix": [
+            [
+                5,
+                3
+            ],
+            [
+                7,
+                16
+            ]
+        ],
+        "classification_report": {
+            "Other diagnoses": {
+                "precision": 0.4166666666666667,
+                "recall": 0.625,
+                "f1-score": 0.5,
+                "support": 8.0
+            },
+            "Glioblastoma, IDH wildtype": {
+                "precision": 0.8421052631578947,
+                "recall": 0.6956521739130435,
+                "f1-score": 0.7619047619047619,
+                "support": 23.0
+            },
+            "accuracy": 0.6774193548387096,
+            "macro avg": {
+                "precision": 0.6293859649122807,
+                "recall": 0.6603260869565217,
+                "f1-score": 0.6309523809523809,
+                "support": 31.0
+            },
+            "weighted avg": {
+                "precision": 0.7323146576117713,
+                "recall": 0.6774193548387096,
+                "f1-score": 0.6943164362519201,
+                "support": 31.0
+            }
+        }
+    },
+    "Logistic Regression": {
+        "accuracy": 0.8709677419354839,
+        "balanced_accuracy": 0.7907608695652174,
+        "macro_f1": 0.8154761904761905,
+        "confusion_matrix": [
+            [
+                5,
+                3
+            ],
+            [
+                1,
+                22
+            ]
+        ],
+        "classification_report": {
+            "Other diagnoses": {
+                "precision": 0.8333333333333334,
+                "recall": 0.625,
+                "f1-score": 0.7142857142857143,
+                "support": 8.0
+            },
+            "Glioblastoma, IDH wildtype": {
+                "precision": 0.88,
+                "recall": 0.9565217391304348,
+                "f1-score": 0.9166666666666666,
+                "support": 23.0
+            },
+            "accuracy": 0.8709677419354839,
+            "macro avg": {
+                "precision": 0.8566666666666667,
+                "recall": 0.7907608695652174,
+                "f1-score": 0.8154761904761905,
+                "support": 31.0
+            },
+            "weighted avg": {
+                "precision": 0.8679569892473118,
+                "recall": 0.8709677419354839,
+                "f1-score": 0.8644393241167435,
+                "support": 31.0
+            }
+        }
+    }
+}

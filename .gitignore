@@ -1,17 +1,32 @@
-# Python
-.venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Testing and notebooks
-.pytest_cache/
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
 .ipynb_checkpoints/
 
-# Data files
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
-# Secrets and local configuration
+# Environment variables and secrets
 .env
+.env.*
+
+# Raw dataset
+data/raw/*
+
+# Processed dataset
+data/processed/*
+
+# Trained model files
+models/saved/*
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+{
+    "sample_id": "61",
+    "actual_label": "Other diagnoses",
+    "self_attention_prediction": "Glioblastoma, IDH wildtype",
+    "self_attention_probabilities": {
+        "Other diagnoses": 0.3920067846775055,
+        "Glioblastoma, IDH wildtype": 0.6079932451248169
+    },
+    "logistic_regression_prediction": "Other diagnoses",
+    "logistic_regression_probabilities": {
+        "Other diagnoses": 0.9812159863260679,
+        "Glioblastoma, IDH wildtype": 0.018784013673932162
+    },
+    "attention_matrix_shape": [
+        1,
+        500,
+        500
+    ],
+    "note": "Educational research prototype only; not a clinically validated diagnostic tool."
+}
